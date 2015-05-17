@@ -1,0 +1,1555 @@
+INFO  [2015-05-17 01:14:16,836] edu.sjsu.cmpe.cache.CacheService: Loaded resources
+WARN  [2015-05-17 01:14:16,857] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2015-05-17 01:14:16,965] com.yammer.dropwizard.cli.ServerCommand: Starting cache-server
+INFO  [2015-05-17 01:14:16,967] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2015-05-17 01:14:17,177] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2015-05-17 01:14:17,310] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /cache/ (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    GET     /cache/{key} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    PUT     /cache/{key}/{value} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+
+INFO  [2015-05-17 01:14:17,311] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2015-05-17 01:14:17,688] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 01:14:17,696] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 01:22:59,597] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 01:22:59,598] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 01:22:59,600] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 01:22:59,600] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 01:23:01,654] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 01:23:01,654] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 01:28:29,833] edu.sjsu.cmpe.cache.CacheService: Loaded resources
+WARN  [2015-05-17 01:28:29,847] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2015-05-17 01:28:29,924] com.yammer.dropwizard.cli.ServerCommand: Starting cache-server
+INFO  [2015-05-17 01:28:29,926] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2015-05-17 01:28:30,076] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2015-05-17 01:28:30,149] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /cache/ (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    GET     /cache/{key} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    PUT     /cache/{key}/{value} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+
+INFO  [2015-05-17 01:28:30,149] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2015-05-17 01:28:30,397] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 01:28:30,403] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 01:45:48,178] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 01:45:48,179] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 01:45:48,180] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 01:45:48,180] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 01:45:50,236] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 01:45:50,236] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 01:48:47,596] edu.sjsu.cmpe.cache.CacheService: Loaded resources
+WARN  [2015-05-17 01:48:47,608] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2015-05-17 01:48:47,668] com.yammer.dropwizard.cli.ServerCommand: Starting cache-server
+INFO  [2015-05-17 01:48:47,670] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2015-05-17 01:48:47,789] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2015-05-17 01:48:47,870] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /cache/ (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    GET     /cache/{key} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    PUT     /cache/{key}/{value} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+
+INFO  [2015-05-17 01:48:47,870] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2015-05-17 01:48:48,125] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 01:48:48,134] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:7000
+ERROR [2015-05-17 01:49:11,656] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: f30585ee89de0150
+! java.lang.IllegalStateException: java.io.InvalidClassException: edu.sjsu.cmpe.cache.domain.Entry; class invalid for deserialization
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.read(SerializationBuilder.java:479) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.BytesReaders$SimpleBytesReader.read(BytesReaders.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initValue0(VanillaContext.java:276) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.getUsing(VanillaContext.java:270) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:79) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:30) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.io.InvalidClassException: edu.sjsu.cmpe.cache.domain.Entry; class invalid for deserialization
+! at java.io.ObjectStreamClass$ExceptionInfo.newInvalidClassException(ObjectStreamClass.java:150) ~[na:1.8.0_20]
+! at java.io.ObjectStreamClass.checkDeserialize(ObjectStreamClass.java:768) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1775) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.readSerializable(JDKObjectSerializer.java:38) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.readSerializable(BytesMarshallableSerializer.java:139) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.read(SerializationBuilder.java:477) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 55 common frames omitted
+ERROR [2015-05-17 01:49:11,675] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: fdad1110351183cb
+! java.lang.IllegalStateException: java.io.InvalidClassException: edu.sjsu.cmpe.cache.domain.Entry; class invalid for deserialization
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.read(SerializationBuilder.java:479) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.BytesReaders$SimpleBytesReader.read(BytesReaders.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initValue0(VanillaContext.java:276) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.getUsing(VanillaContext.java:270) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:79) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:30) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.io.InvalidClassException: edu.sjsu.cmpe.cache.domain.Entry; class invalid for deserialization
+! at java.io.ObjectStreamClass$ExceptionInfo.newInvalidClassException(ObjectStreamClass.java:150) ~[na:1.8.0_20]
+! at java.io.ObjectStreamClass.checkDeserialize(ObjectStreamClass.java:768) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1775) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.readSerializable(JDKObjectSerializer.java:38) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.readSerializable(BytesMarshallableSerializer.java:139) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.read(SerializationBuilder.java:477) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 55 common frames omitted
+ERROR [2015-05-17 01:49:11,682] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 0cd4bda46af9b61b
+! java.lang.IllegalStateException: java.io.InvalidClassException: edu.sjsu.cmpe.cache.domain.Entry; class invalid for deserialization
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.read(SerializationBuilder.java:479) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.BytesReaders$SimpleBytesReader.read(BytesReaders.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initValue0(VanillaContext.java:276) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.getUsing(VanillaContext.java:270) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:79) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:30) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.io.InvalidClassException: edu.sjsu.cmpe.cache.domain.Entry; class invalid for deserialization
+! at java.io.ObjectStreamClass$ExceptionInfo.newInvalidClassException(ObjectStreamClass.java:150) ~[na:1.8.0_20]
+! at java.io.ObjectStreamClass.checkDeserialize(ObjectStreamClass.java:768) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1775) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.readSerializable(JDKObjectSerializer.java:38) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.readSerializable(BytesMarshallableSerializer.java:139) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.read(SerializationBuilder.java:477) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 55 common frames omitted
+ERROR [2015-05-17 01:49:11,699] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 4920e8f7e7b99083
+! java.lang.IllegalStateException: java.io.InvalidClassException: edu.sjsu.cmpe.cache.domain.Entry; class invalid for deserialization
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.read(SerializationBuilder.java:479) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.BytesReaders$SimpleBytesReader.read(BytesReaders.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initValue0(VanillaContext.java:276) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.getUsing(VanillaContext.java:270) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:79) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:30) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.io.InvalidClassException: edu.sjsu.cmpe.cache.domain.Entry; class invalid for deserialization
+! at java.io.ObjectStreamClass$ExceptionInfo.newInvalidClassException(ObjectStreamClass.java:150) ~[na:1.8.0_20]
+! at java.io.ObjectStreamClass.checkDeserialize(ObjectStreamClass.java:768) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1775) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.readSerializable(JDKObjectSerializer.java:38) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.readSerializable(BytesMarshallableSerializer.java:139) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.read(SerializationBuilder.java:477) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 55 common frames omitted
+ERROR [2015-05-17 01:49:20,392] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: b20c94392955739f
+! java.lang.IllegalStateException: java.io.InvalidClassException: edu.sjsu.cmpe.cache.domain.Entry; class invalid for deserialization
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.read(SerializationBuilder.java:479) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.BytesReaders$SimpleBytesReader.read(BytesReaders.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initValue0(VanillaContext.java:276) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.getUsing(VanillaContext.java:270) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.ChronicleMapIterator$OfEntries.read(ChronicleMapIterator.java:121) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.ChronicleMapIterator$OfEntries.read(ChronicleMapIterator.java:112) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.ChronicleMapIterator.accept(ChronicleMapIterator.java:76) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.impl.hashlookup.HashLookup.forEach(HashLookup.java:279) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.ChronicleMapIterator.fillEntryBuffer(ChronicleMapIterator.java:61) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.ChronicleMapIterator.hasNext(ChronicleMapIterator.java:87) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap$1$1.hasNext(AbstractChronicleMap.java:289) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at java.util.AbstractCollection.toArray(AbstractCollection.java:139) ~[na:1.8.0_20]
+! at java.util.ArrayList.<init>(ArrayList.java:177) ~[na:1.8.0_20]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.getAll(ChronicleMapCache.java:43) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.getAll(CacheResource.java:46) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.io.InvalidClassException: edu.sjsu.cmpe.cache.domain.Entry; class invalid for deserialization
+! at java.io.ObjectStreamClass$ExceptionInfo.newInvalidClassException(ObjectStreamClass.java:150) ~[na:1.8.0_20]
+! at java.io.ObjectStreamClass.checkDeserialize(ObjectStreamClass.java:768) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1775) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351) ~[na:1.8.0_20]
+! at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.readSerializable(JDKObjectSerializer.java:38) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.readSerializable(BytesMarshallableSerializer.java:139) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.read(SerializationBuilder.java:477) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 62 common frames omitted
+INFO  [2015-05-17 01:49:46,310] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 01:49:46,311] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 01:49:46,312] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 01:49:46,312] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 01:49:48,370] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 01:49:48,370] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:06:36,479] edu.sjsu.cmpe.cache.CacheService: Loaded resources
+WARN  [2015-05-17 02:06:36,493] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2015-05-17 02:06:36,554] com.yammer.dropwizard.cli.ServerCommand: Starting cache-server
+INFO  [2015-05-17 02:06:36,556] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2015-05-17 02:06:36,668] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2015-05-17 02:06:36,734] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /cache/ (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    GET     /cache/{key} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    PUT     /cache/{key}/{value} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+
+INFO  [2015-05-17 02:06:36,734] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2015-05-17 02:06:36,983] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 02:06:36,991] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:7000
+ERROR [2015-05-17 02:06:52,145] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 9a9ad9ddbf056915
+! java.lang.IllegalStateException: We try to figure out size of objects in serialized form, but it exceeds 16777216 bytes. We assume this is a error and throw exception at this point. If you really want larger keys/values, use ChronicleMapBuilder.keySize(int)/valueSize(int)/entrySize(int) configurations
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop.checkMaxSizeStillReasonable(CopyingMetaBytesInterop.java:35) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:107) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:96) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:78) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewInstanceValue0(VanillaContext.java:367) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue0(VanillaContext.java:361) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue(VanillaContext.java:349) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.doPut(VanillaContext.java:427) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.put(VanillaContext.java:421) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:92) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:34) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.lang.IllegalStateException: java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:457) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:99) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 59 common frames omitted
+Caused by: ! java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184) ~[na:1.8.0_20]
+! at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.writeSerializable(JDKObjectSerializer.java:33) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.writeSerializable(BytesMarshallableSerializer.java:102) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:455) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 60 common frames omitted
+ERROR [2015-05-17 02:06:52,174] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 9aae629ccebb271c
+! java.lang.IllegalStateException: We try to figure out size of objects in serialized form, but it exceeds 16777216 bytes. We assume this is a error and throw exception at this point. If you really want larger keys/values, use ChronicleMapBuilder.keySize(int)/valueSize(int)/entrySize(int) configurations
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop.checkMaxSizeStillReasonable(CopyingMetaBytesInterop.java:35) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:107) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:96) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:78) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewInstanceValue0(VanillaContext.java:367) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue0(VanillaContext.java:361) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue(VanillaContext.java:349) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.doPut(VanillaContext.java:427) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.put(VanillaContext.java:421) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:92) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:34) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.lang.IllegalStateException: java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:457) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:99) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 59 common frames omitted
+Caused by: ! java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184) ~[na:1.8.0_20]
+! at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.writeSerializable(JDKObjectSerializer.java:33) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.writeSerializable(BytesMarshallableSerializer.java:102) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:455) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 60 common frames omitted
+ERROR [2015-05-17 02:06:52,190] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 923e6a51cea68e46
+! java.lang.IllegalStateException: We try to figure out size of objects in serialized form, but it exceeds 16777216 bytes. We assume this is a error and throw exception at this point. If you really want larger keys/values, use ChronicleMapBuilder.keySize(int)/valueSize(int)/entrySize(int) configurations
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop.checkMaxSizeStillReasonable(CopyingMetaBytesInterop.java:35) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:107) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:96) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:78) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewInstanceValue0(VanillaContext.java:367) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue0(VanillaContext.java:361) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue(VanillaContext.java:349) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.doPut(VanillaContext.java:427) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.put(VanillaContext.java:421) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:92) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:34) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.lang.IllegalStateException: java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:457) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:99) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 59 common frames omitted
+Caused by: ! java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184) ~[na:1.8.0_20]
+! at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.writeSerializable(JDKObjectSerializer.java:33) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.writeSerializable(BytesMarshallableSerializer.java:102) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:455) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 60 common frames omitted
+ERROR [2015-05-17 02:06:52,232] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 5d63e234c24b00e9
+! java.lang.IllegalStateException: We try to figure out size of objects in serialized form, but it exceeds 16777216 bytes. We assume this is a error and throw exception at this point. If you really want larger keys/values, use ChronicleMapBuilder.keySize(int)/valueSize(int)/entrySize(int) configurations
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop.checkMaxSizeStillReasonable(CopyingMetaBytesInterop.java:35) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:107) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:96) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:78) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewInstanceValue0(VanillaContext.java:367) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue0(VanillaContext.java:361) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue(VanillaContext.java:349) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.doPut(VanillaContext.java:427) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.put(VanillaContext.java:421) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:92) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:34) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.lang.IllegalStateException: java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:457) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:99) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 59 common frames omitted
+Caused by: ! java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184) ~[na:1.8.0_20]
+! at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.writeSerializable(JDKObjectSerializer.java:33) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.writeSerializable(BytesMarshallableSerializer.java:102) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:455) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 60 common frames omitted
+ERROR [2015-05-17 02:07:12,474] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 73ea6a212086d8a9
+! java.lang.IllegalStateException: We try to figure out size of objects in serialized form, but it exceeds 16777216 bytes. We assume this is a error and throw exception at this point. If you really want larger keys/values, use ChronicleMapBuilder.keySize(int)/valueSize(int)/entrySize(int) configurations
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop.checkMaxSizeStillReasonable(CopyingMetaBytesInterop.java:35) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:107) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:96) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:78) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewInstanceValue0(VanillaContext.java:367) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue0(VanillaContext.java:361) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue(VanillaContext.java:349) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.doPut(VanillaContext.java:427) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.put(VanillaContext.java:421) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:92) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:34) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.lang.IllegalStateException: java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:457) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:99) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 59 common frames omitted
+Caused by: ! java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184) ~[na:1.8.0_20]
+! at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.writeSerializable(JDKObjectSerializer.java:33) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.writeSerializable(BytesMarshallableSerializer.java:102) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:455) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 60 common frames omitted
+ERROR [2015-05-17 02:07:12,486] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 5fe6fdd15190879d
+! java.lang.IllegalStateException: We try to figure out size of objects in serialized form, but it exceeds 16777216 bytes. We assume this is a error and throw exception at this point. If you really want larger keys/values, use ChronicleMapBuilder.keySize(int)/valueSize(int)/entrySize(int) configurations
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop.checkMaxSizeStillReasonable(CopyingMetaBytesInterop.java:35) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:107) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:96) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:78) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewInstanceValue0(VanillaContext.java:367) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue0(VanillaContext.java:361) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue(VanillaContext.java:349) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.doPut(VanillaContext.java:427) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.put(VanillaContext.java:421) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:92) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:34) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.lang.IllegalStateException: java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:457) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:99) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 59 common frames omitted
+Caused by: ! java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184) ~[na:1.8.0_20]
+! at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.writeSerializable(JDKObjectSerializer.java:33) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.writeSerializable(BytesMarshallableSerializer.java:102) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:455) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 60 common frames omitted
+ERROR [2015-05-17 02:07:12,500] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 15c59f74d8e05ae4
+! java.lang.IllegalStateException: We try to figure out size of objects in serialized form, but it exceeds 16777216 bytes. We assume this is a error and throw exception at this point. If you really want larger keys/values, use ChronicleMapBuilder.keySize(int)/valueSize(int)/entrySize(int) configurations
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop.checkMaxSizeStillReasonable(CopyingMetaBytesInterop.java:35) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:107) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:96) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:78) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewInstanceValue0(VanillaContext.java:367) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue0(VanillaContext.java:361) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue(VanillaContext.java:349) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.doPut(VanillaContext.java:427) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.put(VanillaContext.java:421) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:92) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:34) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.lang.IllegalStateException: java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:457) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:99) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 59 common frames omitted
+Caused by: ! java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184) ~[na:1.8.0_20]
+! at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.writeSerializable(JDKObjectSerializer.java:33) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.writeSerializable(BytesMarshallableSerializer.java:102) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:455) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 60 common frames omitted
+ERROR [2015-05-17 02:07:12,525] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 5e6a1282b4575b86
+! java.lang.IllegalStateException: We try to figure out size of objects in serialized form, but it exceeds 16777216 bytes. We assume this is a error and throw exception at this point. If you really want larger keys/values, use ChronicleMapBuilder.keySize(int)/valueSize(int)/entrySize(int) configurations
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop.checkMaxSizeStillReasonable(CopyingMetaBytesInterop.java:35) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:107) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:96) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:78) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewInstanceValue0(VanillaContext.java:367) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue0(VanillaContext.java:361) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue(VanillaContext.java:349) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.doPut(VanillaContext.java:427) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.put(VanillaContext.java:421) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:92) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:34) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.lang.IllegalStateException: java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:457) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:99) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 59 common frames omitted
+Caused by: ! java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184) ~[na:1.8.0_20]
+! at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.writeSerializable(JDKObjectSerializer.java:33) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.writeSerializable(BytesMarshallableSerializer.java:102) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:455) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 60 common frames omitted
+INFO  [2015-05-17 02:11:24,111] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 02:11:24,112] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 02:11:24,113] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:11:24,113] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:11:26,171] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:11:26,172] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:20:06,768] edu.sjsu.cmpe.cache.CacheService: Loaded resources
+WARN  [2015-05-17 02:20:06,781] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2015-05-17 02:20:06,838] com.yammer.dropwizard.cli.ServerCommand: Starting cache-server
+INFO  [2015-05-17 02:20:06,840] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2015-05-17 02:20:06,956] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2015-05-17 02:20:07,033] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /cache/ (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    GET     /cache/{key} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    PUT     /cache/{key}/{value} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+
+INFO  [2015-05-17 02:20:07,033] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2015-05-17 02:20:07,329] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 02:20:07,337] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:7000
+ERROR [2015-05-17 02:20:37,025] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 9a54c03e3df1039c
+! java.lang.IllegalStateException: We try to figure out size of objects in serialized form, but it exceeds 16777216 bytes. We assume this is a error and throw exception at this point. If you really want larger keys/values, use ChronicleMapBuilder.keySize(int)/valueSize(int)/entrySize(int) configurations
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop.checkMaxSizeStillReasonable(CopyingMetaBytesInterop.java:35) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:107) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:96) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:78) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewInstanceValue0(VanillaContext.java:367) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue0(VanillaContext.java:361) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue(VanillaContext.java:349) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.doPut(VanillaContext.java:427) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.put(VanillaContext.java:421) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:92) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:34) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.lang.IllegalStateException: java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:457) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:99) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 59 common frames omitted
+Caused by: ! java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184) ~[na:1.8.0_20]
+! at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.writeSerializable(JDKObjectSerializer.java:33) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.writeSerializable(BytesMarshallableSerializer.java:102) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:455) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 60 common frames omitted
+ERROR [2015-05-17 02:20:37,068] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: e8e329f05d6b9633
+! java.lang.IllegalStateException: We try to figure out size of objects in serialized form, but it exceeds 16777216 bytes. We assume this is a error and throw exception at this point. If you really want larger keys/values, use ChronicleMapBuilder.keySize(int)/valueSize(int)/entrySize(int) configurations
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop.checkMaxSizeStillReasonable(CopyingMetaBytesInterop.java:35) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:107) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:96) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:78) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewInstanceValue0(VanillaContext.java:367) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue0(VanillaContext.java:361) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue(VanillaContext.java:349) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.doPut(VanillaContext.java:427) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.put(VanillaContext.java:421) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:92) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:34) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.lang.IllegalStateException: java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:457) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:99) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 59 common frames omitted
+Caused by: ! java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184) ~[na:1.8.0_20]
+! at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.writeSerializable(JDKObjectSerializer.java:33) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.writeSerializable(BytesMarshallableSerializer.java:102) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:455) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 60 common frames omitted
+ERROR [2015-05-17 02:20:37,101] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 452365a99b2f57e5
+! java.lang.IllegalStateException: We try to figure out size of objects in serialized form, but it exceeds 16777216 bytes. We assume this is a error and throw exception at this point. If you really want larger keys/values, use ChronicleMapBuilder.keySize(int)/valueSize(int)/entrySize(int) configurations
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop.checkMaxSizeStillReasonable(CopyingMetaBytesInterop.java:35) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:107) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:96) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:78) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewInstanceValue0(VanillaContext.java:367) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue0(VanillaContext.java:361) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue(VanillaContext.java:349) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.doPut(VanillaContext.java:427) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.put(VanillaContext.java:421) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:92) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:34) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.lang.IllegalStateException: java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:457) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:99) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 59 common frames omitted
+Caused by: ! java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184) ~[na:1.8.0_20]
+! at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.writeSerializable(JDKObjectSerializer.java:33) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.writeSerializable(BytesMarshallableSerializer.java:102) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:455) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 60 common frames omitted
+ERROR [2015-05-17 02:20:37,162] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: d67048330dd1e2b7
+! java.lang.IllegalStateException: We try to figure out size of objects in serialized form, but it exceeds 16777216 bytes. We assume this is a error and throw exception at this point. If you really want larger keys/values, use ChronicleMapBuilder.keySize(int)/valueSize(int)/entrySize(int) configurations
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop.checkMaxSizeStillReasonable(CopyingMetaBytesInterop.java:35) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:107) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:96) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.CopyingMetaBytesInterop$BytesMarshallerCopyingMetaBytesInteropProvider.get(CopyingMetaBytesInterop.java:78) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewInstanceValue0(VanillaContext.java:367) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue0(VanillaContext.java:361) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.initNewValue(VanillaContext.java:349) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.doPut(VanillaContext.java:427) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.VanillaContext.put(VanillaContext.java:421) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.map.AbstractChronicleMap.putIfAbsent(AbstractChronicleMap.java:92) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.repository.ChronicleMapCache.save(ChronicleMapCache.java:34) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at edu.sjsu.cmpe.cache.api.resources.CacheResource.put(CacheResource.java:58) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_20]
+! at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_20]
+! at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+! at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+! at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:32) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jersey.OptionalResourceMethodDispatchAdapter$OptionalRequestDispatcher.dispatch(OptionalResourceMethodDispatchAdapter.java:37) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.ResourceObjectRule.accept(ResourceObjectRule.java:100) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716) [server-0.0.1-SNAPSHOT.jar:na]
+! at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1448) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:264) [server-0.0.1-SNAPSHOT.jar:na]
+! at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.Server.handle(Server.java:368) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:298) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [server-0.0.1-SNAPSHOT.jar:na]
+! at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [server-0.0.1-SNAPSHOT.jar:na]
+! at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: ! java.lang.IllegalStateException: java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:457) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.DirectBytesBuffer$ForBytesMarshaller.init(DirectBytesBuffer.java:99) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 59 common frames omitted
+Caused by: ! java.io.NotSerializableException: edu.sjsu.cmpe.cache.domain.Entry
+! at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184) ~[na:1.8.0_20]
+! at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_20]
+! at net.openhft.lang.io.serialization.JDKObjectSerializer.writeSerializable(JDKObjectSerializer.java:33) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.lang.io.serialization.BytesMarshallableSerializer.writeSerializable(BytesMarshallableSerializer.java:102) ~[server-0.0.1-SNAPSHOT.jar:na]
+! at net.openhft.chronicle.hash.serialization.internal.SerializationBuilder$SerializableMarshaller.write(SerializationBuilder.java:455) ~[server-0.0.1-SNAPSHOT.jar:na]
+!... 60 common frames omitted
+INFO  [2015-05-17 02:23:00,291] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 02:23:00,292] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 02:23:00,293] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:23:00,293] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:23:02,350] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:23:02,350] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:25:28,790] edu.sjsu.cmpe.cache.CacheService: Loaded resources
+WARN  [2015-05-17 02:25:28,804] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2015-05-17 02:25:28,878] com.yammer.dropwizard.cli.ServerCommand: Starting cache-server
+INFO  [2015-05-17 02:25:28,880] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2015-05-17 02:25:29,016] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2015-05-17 02:25:29,092] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /cache/ (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    GET     /cache/{key} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    PUT     /cache/{key}/{value} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+
+INFO  [2015-05-17 02:25:29,092] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2015-05-17 02:25:29,348] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 02:25:29,355] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 02:37:43,971] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 02:37:43,973] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 02:37:43,974] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:37:43,974] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:37:46,030] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:37:46,030] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:54:36,969] edu.sjsu.cmpe.cache.CacheService: Loaded resources
+WARN  [2015-05-17 02:54:36,983] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2015-05-17 02:54:37,058] com.yammer.dropwizard.cli.ServerCommand: Starting cache-server
+INFO  [2015-05-17 02:54:37,060] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2015-05-17 02:54:37,195] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2015-05-17 02:54:37,259] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /cache/ (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    GET     /cache/{key} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    PUT     /cache/{key}/{value} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+
+INFO  [2015-05-17 02:54:37,259] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2015-05-17 02:54:37,551] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 02:54:37,562] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 02:56:26,397] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 02:56:26,398] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 02:56:26,401] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:56:26,401] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:56:28,457] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 02:56:28,457] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 03:25:42,386] edu.sjsu.cmpe.cache.CacheService: Loaded resources
+WARN  [2015-05-17 03:25:42,402] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2015-05-17 03:25:42,466] com.yammer.dropwizard.cli.ServerCommand: Starting cache-server
+INFO  [2015-05-17 03:25:42,468] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2015-05-17 03:25:42,607] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2015-05-17 03:25:42,687] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /cache/ (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    GET     /cache/{key} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    PUT     /cache/{key}/{value} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+
+INFO  [2015-05-17 03:25:42,688] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2015-05-17 03:25:42,971] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 03:25:42,980] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 03:58:20,686] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 03:58:20,687] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 03:58:20,688] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 03:58:20,688] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 03:58:22,832] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 03:58:22,833] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 04:54:45,357] edu.sjsu.cmpe.cache.CacheService: Loaded resources
+WARN  [2015-05-17 04:54:45,369] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2015-05-17 04:54:45,421] com.yammer.dropwizard.cli.ServerCommand: Starting cache-server
+INFO  [2015-05-17 04:54:45,423] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2015-05-17 04:54:45,523] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2015-05-17 04:54:45,583] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /cache/ (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    GET     /cache/{key} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    PUT     /cache/{key}/{value} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+
+INFO  [2015-05-17 04:54:45,583] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2015-05-17 04:54:45,803] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 04:54:45,810] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 04:57:45,829] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 04:57:45,831] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 04:57:45,831] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 04:57:45,831] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 04:57:47,884] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 04:57:47,884] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 04:58:09,624] edu.sjsu.cmpe.cache.CacheService: Loaded resources
+WARN  [2015-05-17 04:58:09,635] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2015-05-17 04:58:09,686] com.yammer.dropwizard.cli.ServerCommand: Starting cache-server
+INFO  [2015-05-17 04:58:09,687] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2015-05-17 04:58:09,787] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2015-05-17 04:58:09,851] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /cache/ (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    GET     /cache/{key} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    PUT     /cache/{key}/{value} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+
+INFO  [2015-05-17 04:58:09,851] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2015-05-17 04:58:10,074] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 04:58:10,080] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 04:58:30,066] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:7000
+INFO  [2015-05-17 04:58:30,067] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2015-05-17 04:58:30,069] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 04:58:30,069] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 04:58:32,123] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2015-05-17 04:58:32,123] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
